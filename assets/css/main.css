@@ -1,4 +1,4 @@
-.rows {
+.dropdowns {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -13,14 +13,14 @@
     cursor: pointer;
 }
 
-.title {
+.dropdown-title {
     display: inline-flex;
     flex-wrap: nowrap;
     width: 100%;
     justify-content: space-between;
 }
 
-.work-img {
+.dropdown-img {
     display: none;
     height: 3rem;
     width: 3rem;
@@ -28,6 +28,15 @@
     margin-top: 0.35rem;
     overflow: hidden;
     object-fit: contain;
+}
+
+.dropdown-arrow {
+    align-self: baseline;
+    align-self: flex-end;
+}
+
+.dropdown-content { 
+    display: none;
 }
 
 .hidden {
@@ -68,15 +77,6 @@
     width: 1.5rem;
     border-radius: 0.375;
     object-fit: contain;
-}
-
-.dropdown-arrow {
-    align-self: baseline;
-    align-self: flex-end;
-}
-
-.dropdown-content { 
-    display: none;
 }
 
 img {
