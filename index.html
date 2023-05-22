@@ -7,12 +7,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Fomantic UI -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css">
-    
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
 
+    <!-- Fomantic UI -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.2/dist/semantic.min.js"></script>
     
     <link rel="stylesheet" href="assets/css/main.css">
     <script src="assets/js/main.js"></script>
@@ -57,11 +57,10 @@
             <h1 style="padding-top: 50px;">Xin Ying Chew</h1>
             <p style="min-height: 150px;">
                 <img class="ui left floated rounded small image" alt="pfp" src="assets/img/pfp.jpg">
-                Hi! I am a freshman at the University of Michigan. 
-                I am passionate about computer science and am thrilled to be studying it as my major. 
-                I am also passionate about teaching and advocating for animal welfare. 
-                I am eager for any opportunity to share my passion and use them to make a positive impact.
-                Scroll to learn more about me and what I've done!
+                Hi! I am a freshman at the University of Michigan. I am passionate about computer science and 
+                am thrilled to be studying it as my major. I am also passionate about teaching and advocating 
+                for animal welfare. I am eager for any opportunity to share my passion and use them to make a 
+                positive impact. Scroll to learn more about me and what I've done!
             </p>
         </header>
         
@@ -73,37 +72,44 @@
             <h2>Projects</h2>
             <div class="ui two stackable cards">
 
-                <div class="ui fluid card">
+                <a class="ui fluid card" href="https://www.igym.solutions/" target="_blank">
                     <div class="content" style="flex-grow: 0;">
                         <h3 class="header">
                             AiR Play: Inclusive AR
                         </h3>
-                        <div class="meta">
-                            <a href="https://www.igym.solutions/" target="_blank">Product link</a>
-                        </div>
+                        <div class="meta">An augmented reality based game that seeks to provide an accessible 
+                            way for people with motor disabilities to play with their peers.</div>
                     </div>
-                    <div class="content">
-                        <div class="description">
-                            <p>Enhanced our current system by creating tutorial scenes for the game and conducting onsite testing and debugging.</p>
-                        </div>
-                    </div>
-                </div><!-- /fluid card -->
+                </a><!-- /fluid card -->
 
-                <div class="ui fluid card">
+                <a class="ui fluid card" href="https://github.com/Xtiger3/SittingPostureClassification" target="_blank">
                     <div class="content" style="flex-grow: 0;">
                         <h3 class="header">
                             Sitting Posture Classification
                         </h3>
-                        <div class="meta">
-                            <a href="https://github.com/Xtiger3/SittingPostureClassification" target="_blank">GitHub link</a>
-                        </div>
+                        <div class="meta">A machine learning algorithm that classifies different kinds of 
+                            sitting postures and alert the user when bad posture is detected.</div>
                     </div>
-                    <div class="content">
-                        <div class="description">
-                            <p>Trained a machine learning algorithm that can classify four different kinds of sitting postures (straight, hunch, slouch, slant) and alert the user when bad posture is detected.</p>
-                        </div>
+                </a><!-- /fluid card -->
+
+                <a class="ui fluid card" href="https://xtiger3.github.io/color-blender/" target="_blank">
+                    <div class="content" style="flex-grow: 0;">
+                        <h3 class="header">
+                            Color Blender
+                        </h3>
+                        <div class="meta">A website that helps with pixel art creation by determining the 
+                            color codes between after two colors according to a specified interval.</div>
                     </div>
-                </div><!-- /fluid card -->
+                </a><!-- /fluid card -->
+                
+                <a class="ui fluid card" href="https://play.unity.com/mg/other/build0-zr" target="_blank">
+                    <div class="content" style="flex-grow: 0;">
+                        <h3 class="header">
+                            Duck Duck Run
+                        </h3>
+                        <div class="meta">A simple 2D runner game.</div>
+                    </div>
+                </a><!-- /fluid card -->
 
             </div><!-- /stackable cards -->
         </section><!-- /project -->
@@ -230,12 +236,12 @@
             </div>
         </section><!-- /skills -->
         <div class="ui hidden section divider"></div>
+        <div style="height:20px;"></div>
 
     </div><!-- /text container -->
 
 </body>
 
-<footer class="ui vertical footer segment">
-</footer>
+<!-- <footer class="ui vertical footer segment"></footer> -->
 
 </html>
